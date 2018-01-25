@@ -1,4 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
 
-
+.jumbotron {
+	background-color: #fff;
+}

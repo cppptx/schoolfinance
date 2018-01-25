@@ -27,95 +27,11 @@
     	
     </section>
 
-<!-- jQuery -->
+	<!-- jQuery -->
     <script src="js/jquery.js"></script>
-    
-    <!-- Tether -->
-    <script src="js/tether.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
-    <!-- Custom Theme JavaScript -->
-    <script>
-    // Closes the sidebar menu
-    $("#menu-close").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-    // Opens the sidebar menu
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-	
-	// Prevents map from scrolling on mouseover
-    $(document).ready(function () {
-        // you want to enable the pointer events only on click;
-        $('#map_canvas1').addClass('scrolloff'); // set the pointer events to none on doc ready
-        $('#canvas1').on('click', function () {
-            $('#map_canvas1').removeClass('scrolloff'); // set the pointer events true on click
-        });
-        // you want to disable pointer events when the mouse leave the canvas area;
-        $("#map_canvas1").mouseleave(function () {
-            $('#map_canvas1').addClass('scrolloff'); // set the pointer events to none when mouse leaves the map area;
-    	});
-	});
-    // Scrolls to the selected menu item on the page
-    $(function() {
-        $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
-            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                if (target.length) {
-                    $('html,body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                    return false;
-                }
-            }
-        });
-    });
-    //#to-top button appears after scrolling
-    var fixed = false;
-    $(document).scroll(function() {
-        if ($(this).scrollTop() > 250) {
-            if (!fixed) {
-                fixed = true;
-                // $('#to-top').css({position:'fixed', display:'block'});
-                $('#to-top').show("slow", function() {
-                    $('#to-top').css({
-                        position: 'fixed',
-                        display: 'block'
-                    });
-                });
-            }
-        } else {
-            if (fixed) {
-                fixed = false;
-                $('#to-top').hide("slow", function() {
-                    $('#to-top').css({
-                        display: 'none'
-                    });
-                });
-            }
-        }
-    });
-    
-	// Tooltips 
-	$(function () {
-  		$('[data-toggle="tooltip"]').tooltip()
-	});
-	
-	// Popovers
-	$(function () {
-  		$('[data-toggle="popover"]').popover()
-	});
-	
-	$('.popover-dismiss').popover({
-  		trigger: 'focus'
-	});
-	
-    </script>
 </body>
 </html>
