@@ -4,3 +4,11 @@
 .jumbotron {
 	background-color: #fff;
 }
+
+#topvidleft p {
+	padding: 5%;
+}
+
+#topvidright iframe {
+	padding: 3%;
+}
