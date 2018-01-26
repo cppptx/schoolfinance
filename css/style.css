@@ -84,6 +84,12 @@ iframe {
 	width: 8%;
 }
 
+@media (max-width: 1199px) {
+	#headerlogo {
+		max-width: 40%;
+	}
+}
+
 @media (max-width: 991px) {
 #logo {
 	margin-top: 10%;
@@ -104,10 +110,16 @@ iframe {
 }
 }
 
+@media (max-width: 991px) {
+	#headerlogo {
+		max-width: 60%;
+	}
+}
+
 @media (max-width: 414px) {
-#logo {
+#headerlogo {
 	margin-top: 10%;
-	width: 90%;
+	max-width: 90%;
 }
 
 #twitter-logo {
