@@ -7,6 +7,28 @@ body {
     height: 100%;
 }
 
+h1 {
+	font-size: 4em;
+	font-family: 'Open Sans', sans-serif;
+	font-style: italic;
+}
+
+h2, h3, h4, h5 {
+	font-size: 2em;
+	font-family: 'Open Sans', sans-serif;
+	font-style: italic;
+}
+
+.header p {
+	font-size: 2em;
+	font-family: 'News Cycle', sans-serif;
+}
+
+p {
+	font-size: 1.3em;
+	font-family: 'News Cycle', sans-serif;
+}
+
 .header {
     display: table;
     position: relative;
@@ -22,14 +44,6 @@ body {
 #headerlogo {
 	max-width: 25%;
 	padding-top: 3%;
-}
-
-#topvidleft p {
-	padding: 5%;
-}
-
-#topvidright iframe {
-	padding: 3%;
 }
 
 .background2 {
