@@ -50,7 +50,11 @@ iframe {
 	padding: 5%;
 }
 
-.card-img {
+.card {
+	background-image:url(../images/school_finance_commission_site_2.gif) center no-repeat;
+}
+
+.card img {
 	max-width: 100%;
 }
 
