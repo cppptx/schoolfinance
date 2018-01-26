@@ -34,7 +34,7 @@ p {
     position: relative;
     width: 100%;
     height: 100%;
-    background-color: #A7E4E9;
+    background-color: #B4E2E7;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -60,7 +60,7 @@ iframe {
 }
 
 .well {
-	background-color: #A7E4E9;
+	background-color: #B4E2E7;
 }
 
 #bottomlogo {
