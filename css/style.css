@@ -122,6 +122,14 @@ iframe {
 	max-width: 90%;
 }
 
+header h1 {
+	font-size: 3em;
+}
+
+header p {
+	font-size: 1em;
+}
+
 #twitter-logo {
 	width: 15%;
 }
