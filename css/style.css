@@ -20,7 +20,8 @@ body {
 }
 
 #headerlogo {
-	max-width: 60%;
+	max-width: 25%;
+	padding-top: 3%;
 }
 
 #topvidleft p {
