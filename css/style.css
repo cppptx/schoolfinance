@@ -17,3 +17,65 @@
 	background-color: #A7E4E9;
 	padding: 3%;
 }
+
+#bottomlogo {
+	width: 80%;
+}
+
+#twitter-logo {
+	width: 14%;
+}
+
+#youtube-logo {
+	width: 20%;
+	margin-left: -3.8%;
+}
+
+#instagram-logo {
+	width: 8%;
+}
+
+@media (max-width: 991px) {
+#logo {
+	margin-top: 10%;
+	width: 60%;
+}
+
+#twitter-logo {
+	width: 8%;
+}
+
+#youtube-logo {
+	width: 12%;
+	padding-left: 1%;
+}
+
+#instagram-logo {
+	width: 4.4%;
+}
+}
+
+@media (max-width: 414px) {
+#logo {
+	margin-top: 10%;
+	width: 90%;
+}
+
+#twitter-logo {
+	width: 15%;
+}
+
+#youtube-logo {
+	width: 23%;
+}
+
+#instagram-logo {
+	width: 8%;
+}
+}
+
+@media (max-width: 414px) {
+	#fb-logo {
+	width: 8%;
+}
+}
