@@ -1,8 +1,20 @@
 @charset "UTF-8";
 /* CSS Document */
 
-.jumbotron {
-	background-color: #fff;
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #4BC6DF;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#headerlogo {
+	max-width: 60%;
 }
 
 #topvidleft p {
