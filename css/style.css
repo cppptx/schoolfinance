@@ -46,6 +46,10 @@ p {
 	padding-top: 3%;
 }
 
+iframe {
+	padding: 5%;
+}
+
 #section-break {
   background-image: url(images/school_finance_remodel.png) cover center no-repeat;
   max-width: 100%;
