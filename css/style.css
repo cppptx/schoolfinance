@@ -18,6 +18,10 @@
 	padding: 3%;
 }
 
+.well {
+	background-color: #fff;
+}
+
 #bottomlogo {
 	width: 80%;
 }
