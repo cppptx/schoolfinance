@@ -130,6 +130,10 @@ iframe {
 	#headerlogo {
 		max-width: 60%;
 	}
+	
+	#headerp {
+		font-size: .8em;
+	}
 }
 
 @media (max-width: 414px) {
@@ -142,8 +146,8 @@ header h1 {
 	font-size: 3em;
 }
 
-header p {
-	font-size: 1em;
+#headerp {
+	font-size: .775em;
 }
 
 #twitter-logo {
