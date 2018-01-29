@@ -19,6 +19,10 @@ h2, h3, h4, h5 {
 	font-style: italic;
 }
 
+a {
+	color: #B92227;
+}
+
 .header p {
 	font-size: 2em;
 	font-family: 'News Cycle', sans-serif;
