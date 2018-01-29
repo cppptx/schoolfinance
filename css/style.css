@@ -50,6 +50,10 @@ iframe {
 	padding: 5%;
 }
 
+.btn {
+	background-color: #fff;
+}
+
 .card {
 	background-color: white;
 }
