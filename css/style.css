@@ -54,6 +54,10 @@ iframe {
 	background-color: #fff;
 }
 
+.btn h2 {
+	margin-top: -.20%;
+}
+
 .card {
 	background-color: white;
 }
