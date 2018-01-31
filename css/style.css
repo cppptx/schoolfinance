@@ -155,11 +155,16 @@ footer {
 	#headerp {
 		font-size: .8em;
 	}
+	
+	#holegraphic {
+		max-width: 120%;
+	}
+	
 }
 
-@media (max-width: 991px) {
+@media (max-width: 767px) {
 	#holegraphic {
-		max-width: 30%;
+		max-width: 40%;
 	}
 }
 
