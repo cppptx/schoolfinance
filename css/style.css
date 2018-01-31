@@ -96,6 +96,10 @@ iframe {
 	border: none;
 }
 
+#holegraphic {
+	max-width: 70%;
+}
+
 footer {
 	background-color: #B4E2E7;
 }
