@@ -33,6 +33,16 @@ p {
 	font-family: 'News Cycle', sans-serif;
 }
 
+ul {
+	font-size: 1.3em;
+	font-family: 'News Cycle', sans-serif;
+}
+
+li {
+	font-size: 1em;
+	font-family: 'News Cycle', sans-serif;
+}
+
 .header {
     display: table;
     position: relative;
@@ -81,6 +91,8 @@ iframe {
 
 .well {
 	background-color: #B4E2E7;
+	padding: 5px;
+	border-color: #B4E2E7;
 }
 
 #bottomlogo {
