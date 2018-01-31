@@ -91,9 +91,9 @@ iframe {
 }
 
 .well {
-	background-color: #B4E2E7;
+	background-color: #E8E7E7;
 	padding: 5px;
-	border-color: #B4E2E7;
+	border: none;
 }
 
 #bottomlogo {
