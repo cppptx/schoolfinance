@@ -97,7 +97,7 @@ iframe {
 }
 
 #holegraphic {
-	max-width: 70%;
+	max-width: 110%;
 }
 
 footer {
@@ -157,6 +157,12 @@ footer {
 	}
 }
 
+@media (max-width: 991px) {
+	#holegraphic {
+		max-width: 30%;
+	}
+}
+
 @media (max-width: 414px) {
 #headerlogo {
 	margin-top: 10%;
@@ -170,6 +176,10 @@ header h1 {
 #headerp {
 	font-size: .775em;
 }
+
+#holegraphic {
+		max-width: 50%;
+	}
 
 #twitter-logo {
 	width: 15%;
