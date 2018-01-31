@@ -36,6 +36,7 @@ p {
 ul {
 	font-size: 1.3em;
 	font-family: 'News Cycle', sans-serif;
+	list-style: none;
 }
 
 li {
